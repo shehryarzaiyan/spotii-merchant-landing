@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap 4.3.1 -->
+    <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/plugins/fontawesome-all.min.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/plugins/owl.carousel.min.css">
+    <!-- Animated CSS -->
+    <link rel="stylesheet" href="css/plugins/animate.css">
+    <link rel="stylesheet" href="css/plugins/owl.theme.default.min.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400&display=swap" rel="stylesheet">
+    <title>Home</title>
+    <style type="text/css">
+
+
+    @media (min-width: 1200px) {
+        .container {
+            max-width: 1300px;
+        }
+
+
+        .firsthead{
+        font-size: 50px;
+    }
+    .lol{
+        width: 100%;
+    }
+
+    .col-lg-9.ml-2.doto{
+        margin-top: -80px;
+    }
+    .gg{
+        font-size: 44px;
+       
+    }
+    .mt-5{
+        font-size: 18px;
+       
+    }
+    .lj{
+        text-align: left;
+       
+    }
+    .hello{
+        font-size: 44px;
+       
+    }
+    .manu{
+        font-size: 16px;
+       
+    }
+    .mb-59{
+        font-size: 18px;
+       
+    }
+    .ml-44{
+        width: 100%;
+    }
+    .lastt{
+        font-size: 44px;
+       
+    }
+    .ppp{
+        font-size: 18px;
+        width:70%;
+    }
+    .pp{
+        font-size: 18px;
+        width:100%;
+        color: #353535;
+    }
+
+    .mycontentt { display: none; }
+
+    .mb-5{
+        font-size: 20px;
+       
+    }
+
+    .meh{
+    top: -13px;
+    left: 0px;
+    width: 776px;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: center;
+    border-color: transparent;
+    justify-content: space-between;
+
+
+    
+    }
+
+    .ccontainer {
+  position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 12px;
+  margin-right: 43.8px;
+  color: #717171;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.ccontainer input {
+  position: absolute;
+  display: inline-block;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+.ccontainer:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+.ccontainer input:checked ~ .checkmark {
+  background-color: #AA8FFF;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.ccontainer input:checked ~ .checkmark:after {
+  display: block;
+}
+.ccontainer .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+
+
+
+
+
+
+    
+    }
+    
+    .input {
+        border-top: none !important;
+        border-left: none !important;
+        border-right: none !important;
+        border-radius: none !important;
+        outline: none !important;
+        width: 100%;
+        margin-bottom: 50px;
+        border-bottom: 1px solid;
+    }
+    
+    .form-control:active {
+        border: none !important;
+        outline: none !important;
+        border-color: red;
+    }
+    
+    .footer .social .icon {
+        display: inline-block;
+        position: relative;
+        border: none !important;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        margin-right: 5px;
+        transition: all .3s ease-in-out;
+    }
+    @media screen and (max-width: 1050px) {
+  .sec1{
+    align-items: center !important;
+    text-align: center;
+  }
+  .mycontentt { display: none; }
+  .cho{
+    display: block !important;
+  }
+  .chotee{
+    display: block !important;
+  }
+  .bree{
+    display: none !important;
+  }
+  .removeM{
+    margin-left: none !important;
+  }
+  .ml-1{
+    margin-left: 0px !important;
+  }
+  .ml-2{
+    margin-left: 8px !important;
+  }
+  .ml-3{
+    margin-left: 10px !important;
+  }
+  .ml-4{
+    margin-left: 10px !important;
+  }
+  .ml-5{
+    margin-left: 0px !important;
+  }
+  .row1{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .p{
+    width: 100% !important;
+  }
+  .mbb{
+    margin-bottom: 20px;
+  }
+  .doto{
+    margin-left: -70px !important;
+  }
+  /* button{
+    width: 50% !important;
+  } */
+  .redo{
+    width: 40% !important;
+    margin-top: 20px !important;
+    margin-left: 10px;
+  }
+}
+@media screen and (min-width: 1050px) {
+.chotee{
+    display: none !important;
+  }
+  .mycontentt { display: none; }
+  .mycontentt { display: none; }
+  .bree{
+    display: block !important;
+  }
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .col-xs-2{
+        width: 16.66% !important;
+    }
+    .mycontent { display: none; }
+
+    .mycontentt { display: block; margin-left: 40px;width: 90%;height: 138px; }
+
+    .firsthead{
+        font-size: 35px;
+    }
+
+    checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+   
+    .ppp{
+        font-size: 18px;
+       
+    }
+    .gg{
+        font-size: 28px;
+       
+    }
+    .hello{
+        font-size: 28px;
+       
+    }
+    .mt-5{
+        font-size: 14px;
+       
+    }
+    .bruh{
+        font-size: 14px;
+       
+    
+    }
+    .manu{
+        font-size: 14px;
+       
+    }
+    .lol{
+        width: 80%;
+    }
+    .ml-44{
+        width: 80%;
+    }
+    .pp{
+        font-size: 14px;
+        color: #353535;
+       
+    }
+    .stayy{
+        font-size: 28px;
+       
+    }
+    .lastt{
+        font-size: 28px;
+        color: #1A0826;
+       
+    }
+    .mb-5{
+        font-size: 14px;
+       
+    }
+    .ph{
+        font-size: 20px;
+        
+       
+    }
+    .mb-59{
+        font-size: 18px;
+       
+    }
+    
+
+    .ccontainer {
+  position: relative;
+  padding-left: 30px;
+  text-align: left;
+  padding-right: 30px;
+  margin-bottom: 12px;
+  margin-right: 43.8px;
+  color: #717171;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.ccontainer input {
+  position: absolute;
+  display: inline-block;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+.ccontainer:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+.ccontainer input:checked ~ .checkmark {
+  background-color: #AA8FFF;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.ccontainer input:checked ~ .checkmark:after {
+  display: block;
+}
+.ccontainer .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+    .col-xs-8{
+        width: 66.66% !important;
+    }
+    .col-xs-3{
+        width: 50% !important;
+    }
+    .pngo{
+        padding-top: 12px;
+    }
+    .lj{
+        text-align: left;
+        padding-left: 30px ;
+       
+    }
+    .sec{
+        height: 650px !important;
+    }
+    .doto{
+    margin-left: -38px !important;
+    margin-top: -120px;
+  }
+  .redo{
+    width: 40% !important;
+    margin-top: 20px !important;
+    margin-left: 10px;
+  }
+  .footer{
+    text-align: left !important;
+    padding-top: 50px;
+   
+  }
+    }
+    .footer .links ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: black !important;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .3s ease-in-out;
+}
+
+
+
+
+    </style>
+</head>
+
+<body style="font-family: 'Lexend Deca', sans-serif;">
+    <!-- ========== Start Navbar ========== -->
+    <!-- header start -->
+    <!-- header close -->
+    <!-- ========== End Navbar ========== -->
+    <!-- ========== Start Slider ========== -->
+    <section class=" d-flex align-items-center">
+        <div class="col-lg-12">
+            <div class="row" style="padding: 0px !important;">
+                <div class="col-lg-6 col-md-12 col-sm-12 chotee" style="padding: 0px !important;"> <img src="1.png" style="width: 100%;/*height: 675px;*"> </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 sec1 sec" style="background: #411361;height: 675px;width: 100% !important;padding: 0px !important;">
+                    <div class="row mt-4 ml-5 row1">
+                        <div class="col-sm-3 cho" style="display: none"></div>
+                        <div class="col-lg-3 col-sm-3 col-xs-3"> <img class="lol" src="top.png" > </div>
+                        <div class="col-lg-3 col-sm-3 col-xs-3"> 
+                            <img src="top2.png" class="ml-44" > 
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-sm-12 ml-5 text-white ">
+                        <h1 class="firsthead" style="padding-top: 100px !important;">
+                        Instantly boost your<br>
+sales with Spotii
+                    </h1>
+                    
+                        <p class="ppp" style="line-height: 1.2;" class="col-sm-12">Give your customers the power to pay later, with interest free options, and watch your sales grow. What are you waiting for?</p>
+                        <button class="btn mt-5 removeM" style="background: #6542BE;color: white;padding: 15px;border-radius: 10px;">Start accepting Spotii now</button>
+                        <div class="row" style="margin-top: 120px !important">
+                            <div class="col-lg-10">
+                                <p>Not an optty customer yet?<span class="ml-3 removeM" style="font-size:15px;">Get optty<i class="fa fa-arrow-right ml-2 " aria-hidden="true" style="margin-top:8px;position: absolute;"></i></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 bree" style="padding: 0px !important;"> <img src="1.png" style="width: 100%;height: 675px;"> </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== End Slider ========== -->
+    <section class="">
+        <div class="container">
+            <div class="col-lg-12">
+                <div class="row  align-items-center mt-5 mb-5">
+                    <div class="col-lg-3 "> </div>
+                    <div style="border-top:1px solid #6542BE;height: 1px;" class="col-lg-6 mt-5 mb-5"> </div>
+                    <div class="col-lg-12 mt-5" style="align-items: center;text-align: center;">
+                        <h1 class="stayy">Stay competitive</h1>
+                        <p class="mb-5">Give your customers a better way to pay and watch your sales grow. Spotii's partner merchants enjoy higher AOV and conversion, more repeat purchases, and immediate payment.</p>
+                    </div>
+                    <div class="col-lg-4 mbb" style="">
+                        <div class="card" style="text-align: center;padding:20px 20px 20px 20px;border-radius: 10px;border: 1px solid #6542BE;height: 190px;">
+                            <center> <img src="assests2/1.png" class="mb-4" style="width: 13%;"> </center>
+                            <h5 class="ph" style="
+                            font-weight: 700;
+                            color: #190A0A;">SEAMLESS INTEGRATION</h5>
+                            <p class="pp">Instant plug and play integration and frictionless UX</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mbb" style="">
+                        <div class="card" style="text-align: center;padding:20px 20px 20px 20px;border-radius: 10px;border: 1px solid #6542BE;height: 190px;">
+                            <center> <img src="assests2/2.png" class="mb-4" style="width: 13%;"> </center>
+                            <h5 class="ph" style="
+                            font-weight: 700;
+                            color: #190A0A;">GUARANTEED UPFRONT PAYMENT</h5>
+                            <p class="pp">Spotii settles quickly and upfront with merchants by automatic bank transfer</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mbb" style="">
+                        <div class="card" style="text-align: center;padding:20px 20px 20px 20px;border-radius: 10px;border: 1px solid #6542BE;height: 190px;">
+                            <center> <img src="assests2/3.png" class="mb-4" style="width: 13%;"> </center>
+                            <h5 class="ph" style="
+                            font-weight: 700;
+                            color: #190A0A;">LOCAL SUPPORT</h5>
+                            <p class="pp">We are always ready to help whenever you need it</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== Start Features ========== -->
+    <section class="features" style="background:#EDE6FF;padding-bottom: 70px;">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-12" style="align-items: center;text-align: center;">
+                    <h1 class="gg" style="color: #1A0826;">Supercharge your store</h1>
+                    <p class="mb-59"">Take on zero risk and reap rewards</p>
+                </div>
+                <!-- Box-1 -->
+                <div class="col-lg-4 col-sm-12 mbb" style="">
+                    <div class="card" style="text-align: center;padding:20px 20px 20px 20px;border-radius: 10px;height: 190px;border: none;">
+                        <center> <img src="assests2/4.png" class="mb-4" style="width: 13%;"> </center>
+                        <h5 style="
+                        font-weight: 700;
+                        color: #190A0A;">INCREASE SALES</h5>
+                        <p class="manu" style="
+                        font-weight: 400;
+                        color: #353535;">Enjoy a 50%-70% increase in basket size</p>
+                    </div>
+                </div>
+                <!-- Box-1 -->
+                <div class="col-lg-4 col-sm-12 mbb" style="">
+                    <div class="card" style="text-align: center;padding:20px 20px 20px 20px;border-radius: 10px;height: 190px;border: none;">
+                        <center> <img src="assests2/5.png" class="mb-4" style="width: 13%;"> </center>
+                        <h5 style="
+                        font-weight: 700;
+                        color: #190A0A;">DRIVE CONVERSIONS</h5>
+                        <p class="manu" style="
+                        font-weight: 400;
+                        color: #353535;">Say goodbye to abandoned carts</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 mbb" style="">
+                    <div class="card" style="text-align: center;padding:20px 20px 20px 20px;border-radius: 10px;height: 190px;border: none;">
+                        <center> <img src="assests2/OnPaste.20220605-222024.png" class="mb-4" style="width: 13%;"> </center>
+                        <h5 style="
+                        font-weight: 700;
+                        color: #190A0A;">REDUCED REFUNDS</h5>
+                        <p class="manu" style="
+                        font-weight: 400;
+                        color: #353535;">Spotii users have a 30% lower refund rate</p>
+                    </div>
+                </div>
+            </div>
+            <center>
+                <button class="btn mt-5" style="background: #411361;color: white;padding: 15px;border-radius: 10px;">Apply now</button>
+            </center>
+        </div>
+    </section>
+    <!-- ========== End Features ========== -->
+    <!-- ========== Start About ========== -->
+    <section class="pt-4">
+        <div class="col-lg-12 pt-5" style="align-items: center;text-align: center;">
+            <h1 class="hello" style="color: #1A0826;">Instantly offer Spotii <span style="color: #aa8fff;">online</span>
+</h1>
+            <p class="mb-5" style="color:#353535">Enable the Spotii widget on your product and checkout page in no time.</p>
+        </div>
+        <div class="container">
+            <div class="row  align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="col-lg-10 col-sm-12 bg-light" style="padding:5px;border-radius:10px">
+                        <div class="row">
+                            <div class="col-lg-2 col-xs-2 col-sm-2 pl-4 " style="padding-top:13px">
+                                <label style="background:white;width:40px;height: 40px;border-radius: 100%;text-align: center;padding-top: 10px;">1</label>
+                            </div>
+                            <div class="col-lg-8 col-xs-8 col-sm-8">
+                                <h5 style="padding-top: 22px;color:#1A0826">Get Ready</h5> </div>
+                            <div class="col-lg-2 col-xs-2 pngo col-sm-2"> <img src="green.png" style="width:80%;padding-top:8px"> </div>
+                        </div>
+                    </div>
+                    <p class="pt-2" style="width:75%;color:#353535;">Apply in minutes. Once approved, a Spotii team member will follow up with your API key credentials.</p>
+                    <div class="col-lg-10 col-sm-12 bg-light" style="padding:5px;border-radius:10px;margin-top: 90px;">
+                        <div class="row">
+                            <div class="col-lg-2 col-xs-2 col-sm-2 pl-4 " style="padding-top:13px">
+                                <label style="background:white;width:40px;height: 40px;border-radius: 100%;text-align: center;padding-top: 10px;">2</label>
+                            </div>
+                            <div class="col-lg-8 col-xs-8 col-sm-8">
+                                <h5 style="padding-top: 22px;color:#1A0826">Get Set</h5> </div>
+                            <div class="col-lg-2 pngo col-xs-2 col-sm-2"> <img src="green.png" style="width:80%;padding-top:8px"> </div>
+                        </div>
+                    </div>
+                    <p class="pt-2" style="width:75%;color:#353535;">Copy-paste your Spotii API key into the Optty Retail Control Center to enable Zip.</p>
+                    <div class="col-lg-9 ml-2  doto" style="position: absolute;"> <img src="dot.png" style="float: right !important;width: 2%;">
+    
+                        
+                        <br> <img src="dot.png" style="float: right !important;width: 2%;">
+                        <br> <img src="dot.png" style="float: right !important;width: 2%;">
+                        <br> <img src="dot.png" style="float: right !important;width: 2%;">
+                        <br> <img src="dot.png" style="float: right !important;width: 2%;">
+                        <br> <img src="dot.png" style="float: right !important;width: 2%;">
+                        <br> <img src="dot.png" style="float: right !important;width: 2%;">
+                        <br> <img src="dot.png" style="float: right !important;width: 2%;">
+                        <!-- <br> <img src="dot.png" style="float: right !important;width: 2%;"> -->
+                    </div>
+                    <div class="col-lg-10 col-sm-12" style="padding:5px;border-radius:10px;box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;margin-top: 115px;">
+                        <div class="row">
+                            <div class="col-lg-2 col-xs-2 col-sm-2 pl-4 " style="padding-top:13px">
+                                <label style="background:white;width:40px;height: 40px;border-radius: 100%;text-align: center;padding-top: 10px;color: #aa8fff;">3</label>
+                            </div>
+                            <div class="col-lg-8 col-xs-8 col-sm-8">
+                                <h5 style="padding-top: 22px;color: #aa8fff;">Get Paid</h5> </div>
+                            <div class="col-lg-2 col-xs-2 pngo col-sm-2"> <img src="blue.png" class="ml-2" style="width:60%;padding-top:15px"> </div>
+                        </div>
+                    </div>
+                    <p class="pt-2 mb-5" style="width:75%;padding-left: 94px;color:white">Start accepting </p>
+                </div>
+                <div class="col-lg-6 ">
+                    <div class="image d-flex justify-content-lg-end justify-content-md-center"> <img src="mob.png" alt="about" class="img-fluid"> </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== End About ========== -->
+    <!-- ========== Start Contact ========== -->
+    <!-- ========== End Contact ========== -->
+    <!-- ========== Start Blog ========== -->
+    <section class="">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-3 "> </div>
+                    <div style="border-top:1px solid #6542BE;height: 1px;" class="col-lg-6 mt-5 mb-5"> </div>
+            </div>
+            <div class="heading">
+                <h1 class="lastt">Apply now and start accepting Spotii</h1>
+                <p class="bruh" style="margin-bottom: 3rem;color: #353535;">Fill out the form within 1 min and a Spotii representative will get in touch with you for the next steps</p>
+            </div>
+            <form>
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <input type="text" class="input" placeholder="*First Name" name="">
+                                <input type="text" class="input" placeholder="*Business Email" name="">
+                                <input type="text" class="input" placeholder="Job Title" name="">
+                                <input type="text" class="input" placeholder="Website URL" name="">
+                                <input type="text" class="input" placeholder="Average Order Value" name=""> </div>
+                            <div class="col-lg-6 " style="align-items:right">
+                                <input type="text" class="input" placeholder="*Last Name" name="">
+                                <input type="text" class="input" placeholder="*Phone Number" name="">
+                                <input type="text" class="input" placeholder="Company" name="">
+                                <select class="input" style="margin-top:5px">
+                                    <option>Industry</option>
+                                </select>
+                                <select class="input">
+                                    <option>Annual Sales</option>
+                                </select>
+                        </div>
+                        <!-- <img class="mycontent" src="testbox.png" width="100%" height="65">
+                        <img class="mycontentt" src="testboxx.png"> -->
+                     
+                        <!-- 
+                         -->
+                        
+                        <div class="lj">
+                            <p style="margin-bottom: 1rem;">Check the box that describes your company</p>
+                        <label class="ccontainer">Are you VAT registered?
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                        </label>
+                        <label class="ccontainer">Have valid trade license?
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        </label>
+                        <label class="ccontainer">Have a business bank account?
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        </label>
+                    </div>
+
+
+                        <div style="width:38%"></div>
+                            <button class="btn mt-5 " style="background: #411361;color: white;width: 25%;padding: 15px;border-radius: 10px;">Lets Go</button>
+                        
+                    </div>
+                </div>
+                <p class="mt-5" style="color: #8c8e91;">*Based on best performing Spotii store data. Spotii, a ZipPay company and its subsidiaries provides no warranties or representations in respect of any products or services.</p>
+            </form>
+        </div>
+    </section>
+    <!-- ========== End Blog ========== -->
+    <!-- ========== Start Footer ========== -->
+    <footer class="footer" style="background:#FFFFFA !important;">
+        <div class="container">
+            <div class="row">
+                <!-- Who -->
+                <!-- Links -->
+                <div class="col-md-3">
+                    <div class="links">
+                        <h1 class="mb-4" style="font-size: 24px;">Spotii</h1>
+                        <ul>
+                            <li><a href="#0">About Us</a></li>
+                            <li><a href="#0">Meet the team</a></li>
+                            <li><a href="#0">News</a></li>
+                            <li><a href="#0">Contact</a></li>
+                            <li><a href="#0">Blog</a></li>
+                            <li><a href="#0">Careers</a></li>
+                        </ul>  </div>
+                </div>
+                <!-- Links -->
+                <div class="col-md-6">
+                    <div class="links">
+                        <h1 class="mb-4" style="font-size: 24px;">How it Works</h1>
+                        <div class="row">
+                            <div class="col-lg-4"> <span style="color: #8c8e91;">For Merchants</span>
+                                <ul>
+                                    <li><a href="#0">Why</a></li>
+                                    <li><a href="#0">Merchants FAQ</a></li>
+                                    <li><a href="#0">Developers</a></li>
+                                    <li><a href="#0">Online Marketing</a></li>
+                                    <li><a href="#0">Login / Register</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6"> <span style="color: #8c8e91;">For Shoper</span>
+                                <ul>
+                                    <li><a href="#0">Why</a></li>
+                                    <li><a href="#0">Shopper FAQ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Social -->
+                <div class="col-md-3">
+                    <div class="social">
+                        <h1 class="mb-4" style="font-size: 24px;">Let's connect</h1> <span style="color: #8c8e91;">Spotii Profiles</span>
+                        <br><br>
+                        <div class="icon" style="margin-left: -20px">
+                            <a href="#0"><img src="assests2/insta.png" style="width: 200%;"></a>
+                        </div>
+                        <div class="icon">
+                            <a href="#0"><img src="assests2/twitter.png" style="width: 200%;"></a>
+                        </div>
+                        <div class="icon">
+                            <a href="#0"><img src="assests2/you.png" style="width: 200%;"></a>
+                        </div>
+                        <div class="icon">
+                            <a href="#0"><img src="assests2/fb.png" style="width: 200%;"></a>
+                        </div>
+                        <div class="icon">
+                            <a href="#0"><img src="assests2/link.png" style="width: 200%;"></a>
+                        </div>
+                        <br> <br><span style="color: #8c8e91;">Spotii Newsletter </span>
+                        <br><br>
+                        <form>
+                            <input type="text" name="" class="form-control" placeholder="Enter Your email" style="height: 3.4rem !important;border-radius: 10px;">
+                            <button class="btn mt-3" style="background: #411361;color: white;width: 100%;padding: 15px;border-radius: 10px;">Apply now</button>
+                        </form>
+                        <div class="mt-2"><a href="#0" style="color: #8c8e91;font-size: 15px;">Terms and Conditions</a><a href="#0" style="color: #8c8e91;font-size: 15px;" class="ml-4">Privacy Policy</a></div>
+                    </div>
+                </div>
+                <img src="red.png" class="redo" style="width:10%">
+            </div>
+        </div>
+    </footer>
+    <div class="bottom ml-4" style="float: left;">
+        <h3 style="text-align: left;font-size 14px;">&copy; Spotii DMCC is Registered and Licensed as a FREEZONE Company under the Rules and Regulations of DMCC.</h3></div>
+    <!-- ========== End Footer ========== -->
+    <!-- ========== JavaScript ========== -->
+    <script src="js/plugins/jquery-3.4.1.min.js"></script>
+    <script src="js/plugins/popper.min.js"></script>
+    <script src="js/plugins/bootstrap.min.js"></script>
+    <script src="js/plugins/owl.carousel.min.js"></script>
+    <script src="js/plugins/wow.min.js"></script>
+    <script src="js/main.js"></script>
+    
+    
+</body>
+
+</html>
+
+
